@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="bricks" tilewidth="16" tileheight="16">
+  <image source="bricks.png" width="176" height="336"/>
+ </tileset>
+ <layer name="background" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzjZWBg4B3Fo3gUj+JRPIpH8SgexVTDACExHnk=
+  </data>
+ </layer>
+ <layer name="shadow" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20JT6AAAHgaCWAAAQ==
+  </data>
+ </layer>
+ <layer name="terrain" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwTYmBgEMKCYYCVTAwD2MxGNn8UjILhAGidzodLPhoId9M6zHDFDbF4IOweBaiAUD1GK/NH7UW1l9L2xmCzFwDDmgY3
+  </data>
+ </layer>
+ <objectgroup name="collision" width="30" height="20">
+  <object x="0" y="0" width="96" height="16"/>
+  <object x="128" y="0" width="224" height="16"/>
+  <object x="384" y="0" width="96" height="16"/>
+  <object x="384" y="112" width="96" height="16"/>
+  <object x="384" y="240" width="96" height="80"/>
+  <object x="112" y="176" width="256" height="16"/>
+  <object x="128" y="192" width="224" height="16"/>
+  <object x="208" y="160" width="64" height="16"/>
+  <object x="224" y="144" width="32" height="16"/>
+  <object x="0" y="240" width="96" height="80"/>
+  <object x="0" y="112" width="96" height="16"/>
+  <object x="128" y="288" width="224" height="32"/>
+ </objectgroup>
+</map>

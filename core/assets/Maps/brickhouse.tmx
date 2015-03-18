@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="24" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="walls" tilewidth="32" tileheight="32">
+  <image source="walls.png" width="1024" height="32"/>
+ </tileset>
+ <tileset firstgid="33" name="other" tilewidth="32" tileheight="32">
+  <image source="other.png" width="256" height="64"/>
+ </tileset>
+ <layer name="background" width="32" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMw6BamX+TF3JIWDVVVfXFA/TOYwE=
+  </data>
+ </layer>
+ <layer name="terrain" width="32" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzjYWBgYELDfAwIwINFnlhMyBxk+VEwMgG90sVwS3+8aHi42k+t8oee7hiM6QpX+h/o/Ddq/2j9OwpGwSgYGAAAINMC8w==
+  </data>
+ </layer>
+ <objectgroup name="collision" width="32" height="24">
+  <object x="0" y="0" width="192" height="32"/>
+  <object x="256" y="0" width="512" height="32"/>
+  <object x="832" y="0" width="192" height="32"/>
+  <object x="832" y="160" width="192" height="32"/>
+  <object x="832" y="352" width="192" height="160"/>
+  <object x="256" y="480" width="512" height="32"/>
+  <object x="256" y="288" width="512" height="32"/>
+  <object x="320" y="320" width="384" height="32"/>
+  <object x="448" y="224" width="128" height="64"/>
+  <object x="0" y="384" width="192" height="128"/>
+  <object x="0" y="160" width="192" height="32"/>
+ </objectgroup>
+</map>
